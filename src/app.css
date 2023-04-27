@@ -1,0 +1,55 @@
+.card1{
+    width: 200px;
+    height: 200px;
+    margin-top: 350px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background: url(https://avatars.mds.yandex.net/i?id=acc380914a7d176305665e2a5ba6f18a-5419040-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.fcard{
+    display: flex;
+    justify-content: end;
+    margin-right: 450px;    
+}
+
+.bcard{
+    display: flex;
+    justify-content: end;
+    margin-right: 350px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;  
+    color: gold;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid gold;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+button:hover{
+    box-shadow: 0 0 10px 0;
+}
+
+body{
+    background: url(https://i.ytimg.com/vi/AmnqQDSmRks/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
