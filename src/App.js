@@ -28,7 +28,7 @@ function App() {
       </Card>
       <Card className='bcard'>
         <button onClick={() => setCount(count + 1)}>+</button>
-        <button onClick={() => name()}>Clear</button>
+        <button className='a' onClick={() => name()}>Clear</button>
       </Card>
     </>
   );

@@ -42,6 +42,10 @@ button{
     margin-top: 20px;
 }
 
+.a{
+    margin-left: 20px;
+}
+
 button:hover{
     box-shadow: 0 0 10px 0;
 }
