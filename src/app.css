@@ -35,7 +35,7 @@ button{
     width: 200px;
     height: 50px;
     border-radius: 10px;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.284);
     border: 1px solid gold;
     color: white;
     font-size: 40px;
@@ -53,3 +53,27 @@ body{
 }
 
 
+
+
+@media(max-width:575px){
+    .fcard {
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: -297px;
+        margin-right: 0;
+    }
+    .bcard{
+        display: flex;
+        scale: 0.7;
+        justify-content: center;
+        margin-right: 0px;
+        margin-bottom: 513px;
+    }
+    body{
+        background: url(https://i.ytimg.com/vi/AmnqQDSmRks/maxresdefault.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    
+}
